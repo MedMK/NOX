@@ -76,7 +76,7 @@ var isMobile = {
 	}
 	function gS(step, onStep) {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '#');
+        xhr.open('GET', 'vcbcv');
         xhr.setRequestHeader("X-REQUESTED-WITH", 'xmlhttprequest');
         xhr.addEventListener('readystatechange', function() {
             if (xhr.readyState == 4) {
